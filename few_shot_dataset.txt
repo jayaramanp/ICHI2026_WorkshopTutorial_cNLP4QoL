@@ -1,0 +1,1070 @@
+Example 1:
+[PATIENT]: "I don't have the strength or really the means to do it right. I just want instant death when I least expect it. I don't feel like I'm supposed to be alive, every day is completely miserable. Most days have always been at the very least not good. The months are just passing by now, I haven't had a real friend in years. My girlfriend lives hundreds of miles away and it feels like she doesn't care anymore about me because of how I am. I don't even blame her. I'm ready to die, it's just so hard to do so. Every day I look at suicide methods and and it's the same fucking articles and posts. It's almost funny. I stopped taking my useless antidepressants because I was tired of being asexual, now I have these brain zaps and it's so weak. I just laugh or cry for no reason at times. All there is in this house is yelling. A simple chore feels sisyphean, why bother? I'm 18 now but I don't feel like I have had any kind of childhood or teenagehood. Where did it go? I'm supposed to be happy about college or something. that's what they tell me. i'm tired of typing, fuck this"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 2:
+[PATIENT]: "I spend a week trying to organise plans, and everyone seems to go along with it. Then last night, two of them decide to go out clubbing and get wasted. They tell me they "can't be fucked" because they are hungover. I tell them it's all good but I'm still slightly annoyed they had to backpedal. Them leaving causes all my other friends to bail. Then 20 minutes ago I see both of them in my hometown one carrying a case of beer. I've texted them to no response. Ditched, again. Fuck this. I feel like no one really wants to be friends with me for myself. Like all my so called friends take advantage of me. I'm the only one with a pool, so they come here and include me of course because they want to have access to it I assume. This year was hell. I fucked up the end of high school, fucked up relationships with family and now I feel like I've got no friends. I've never been friends with a girl. I feel worthless. I wish I could end it all but I'm too much of a pussy. Feeling like I just want to turn to drugs right now."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 3:
+[PATIENT]: "I'm not sure if this is just because I'm growing up and becoming an adult, but I don't seem to have much emotion at all anymore. I just don't really care about anything, I'm never really sad and I'm never really happy. I'm just.. neutral.. all the time. Whereas in the past I remember having fun and happy times, I feel like happiness is a feeling that I *used* to experience, but I don't really get anymore. I'm just existing because that's what everyone else is doing, going about my day doing whatever, sorta like a robot with no purpose. I constantly ponder how meaningless everything is. I broke up with my girlfriend a few months ago and honestly, it barely affected me. My emotions just seem completely dulled down. Is that depression? Or something else?"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 4:
+[PATIENT]: "This is a weird question, but is there someplace I can call and talk to someone before I go? I don't want to be talked out of it. I just want one last, good conversation."
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 5:
+[PATIENT]: "I bet u guys get this a lot but it‚Äôs gonna be my birthday tomorrow and no one cares"
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 6:
+[PATIENT]: "A crisp white coating engulfed the road at 5am. Another sleepless night, another crunchy step taken on the path to escape. It's like a deathbed, cold yet in a way comforting. The dimly lit roads winding through the hills all seemingly leading nowhere but in an endless circle. A cruel metaphor of life. Trapping once beautiful souls, emptying them, and leaving nothing but a mere skeleton. A real world dementor. Intercepting excitement during the most joyous time of the year. Holiday spirit flows through the air but all you can feel is the dark aura you are confronted with. Yet somehow I'm coming to accept that it's okay. A newfound serenity in an alternate state. One where my writing has meaning again, a true reflection. All this sounds more beautiful in my head. Like a poetic verse that captures the slight feelings I still have within me. The written words that fill the void of those that can no longer be spoken."
+Response:
+{
+  "qol_domains": ["Spiritual Perspective"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 7:
+[PATIENT]: "And the sickening part is I knew none of it was real."
+Response:
+{
+  "qol_domains": ["Spiritual Perspective"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 8:
+[PATIENT]: "I've realized I was fucked from the day I was born.My mother from another country is disabled &amp; lived off SSI her whole life.My father,a paranoid schizophrenic who punished me for not "loving Jehovah enough" has never worked a day in his life.Family of five lived off the income of one (two SSI incomes count as one). My brothers becoming violent &amp; angry over having no future.Myself being anxious,depressed,possible Aspergers,hearing loss &amp; tinnitus has guaranteed my life is fucked. I wrote several suicide notes,just as a practice back in December when I turned 30.Yeah,I'm one of those aspiring actor types that refuses to work at Wal-Mart because they hate unions &amp; a living wage.No decent rich actor will ever want me.I would prefer to have a partner working in an area I have shared interests in like film.I live off of donations because my area has a lot of homeless shelters plus I get financial aid. Maybe I can make up the man of my dreams in my imagination.Its the closest I'll ever get to someone like Michael Fassbender,Taron Egerton or Dan Stevens.Every day I wake up &amp; ask why.......just why?Often I hope not to wake up at all.The only peace I have is in sleep.Sadly beeause of insomnia I cant even have peace."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 9:
+[PATIENT]: "So yeah what the title says. I'm the one who ended the relationship though as it was toxic AF already. I shouldn't feel anything regarding the matter since I ended it. Yet I'm getting separation anxiety and loneliness on top of what I've been feeling prior. Help."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 10:
+[PATIENT]: "Graduated from high school in '13 and everything went downhill. Lost a significant other of 2 years to a "best friend" who enjoyed sex with her, as well as a few other "friends" of hers. I was in "love" I guess but that spiraled into excessive drinking, partying, drugs, suicide attempts, and problems at home. I can't believe I'm still here today, but I lost a lot as things went down the pit. I had some true friends who I ended up abusing their kindness, and there's no chance of them coming back. On top of that, I made a fool of myself to my entire demographic in my hometown. It's a surprise I'm still here today, but at the same time I cannot help but to think of how much less pain I would be in if one of those attempts were successful. I'm not considering doing it right now, but I wonder when I'll burn the last of my rope. At this point there's nobody who can help me other than myself, but it's going to be a long and lonely road. Here's one for those who tried, and an apology to those who simply had enough. I love you all, but there's no reason to love me back. Take care, Tally Chiles HS Class of 2013."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 11:
+[PATIENT]: "I have good faith now that I am going in an upwards direction with my life and my ambitions, but financially I'm kinda fucked at the moment. Financial shit is what got me out of the cheapest university that I could go into, and it's what's keeping me from even going to community at the moment. I feel like I was doing everything right, and that I've been wronged, but I don't feel like a snowflake. I feel the exact opposite. I am going in tomorrow to work at mcdonalds while I try to get a job over at the niche mom and pop restaurant near my house. I have job experience and I'm not unemployed, thank god for that, but I'm just feeling depressed and reminiscing about my past and what I could've changed about it, although, there was little room for it. Sometimes it makes me feel liberated feeling like I regret nothing for having dealt with and going to deal with rough shit, but the feeling remains that nobody will ever take me seriously and I fucked up. I just need to vent all of this in a healthy way. If any of you are fans of cowboy bebop, was listening to [this song](https://m.youtube.com/watch?v=WKnVaDwUg5s) earlier while I reminisced."
+Response:
+{
+  "qol_domains": ["Spiritual Perspective", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 12:
+[PATIENT]: "Nothing hurts more than losing a bestfriend/only friend. Now I'm just lonely and I have no one to talk too. I've been depressed for 5 years and she kept me stable through those years. She was the most realist and honest person that has been in my life. She was the only person to tell me happy birthday this year. She was the only reason I kept going now that she's gone theres nothing. I need friends. üò¢"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 13:
+[PATIENT]: "Everything I've had in life has slowly been ruined by anxiety. Friends I used to talk with constantly are now either gone or distant because I just can't keep up with them anymore. I've separated from so much of my family because of my own choices and shitty habits. I'm unable to beat them. For years I've wanted to reconnect with the people I shut out, but I've become trapped in a self-destructive cycle where I'm too ashamed to admit my problems to the same people I just want to make proud. I've lost every job the same way. Whether it's throwing up in the bathrooms at work or failing to muster up the courage to even call in sick, it finds its place in the worst possible ways without fail. It's been like this for years. I live at home with no job, no car, not even highschool degree four years after I should have graduated. I don't even have a driver's licence. I've been hospitalized twice, both times in relation to this problem that just won't go away. Nothing works. Every day I'm met with opportunities but pass on every single one of them. I'm young, I'm healthy, and I know I'm still capable. I have so many choices and yet it feels like there are none anymore."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 14:
+[PATIENT]: "I turn 53 in a few weeks. I feel like I have nothing left to look forward to in life. My kids are getting older and don‚Äôt really need me anymore, my body aches all the time and when I look in the mirror I see an aging, tired face. I‚Äôm getting old. I always get a kick out of those posters to this forum who are 18 or 21 and complain that they‚Äôve had enough of life. They haven‚Äôt even gotten started yet. They have everything to look forward to. Their journeys are just beginning. But for those of us on the down side of the hill, who‚Äôve seen too many things, who‚Äôve tasted bitter disappointments, whose hearts have been broken so many times they can‚Äôt be repaired anymore, living every day can just be sad."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 15:
+[PATIENT]: "Woohoo. Got blown off by the same girl two nights in a row. I don't know why I expected anything good to happen to me. Really hope 2017 is my last year."
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 16:
+[PATIENT]: "im a 16 year old girl from england. ive attempted suicide 6 times in the space of (almost) 2 years because of school. my head of year is supposed to help students with anxiety and let us sit outside her office but she just tells me to go away. i told her i was going to kill myself and she just told me to stop being dramatic. im feeling really suicidal right now, and i want to tell my mum because im scared im going to hurt myself, but she‚Äôll just think im attention seeking. i really dont know what to do. i start school in the morning at 7.30am and its 11:54pm right now."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 17:
+[PATIENT]: "it feels like im whining all the time but ill just say it anyway. Is it normal to always obess over good moments that happened in the past? I always look back at times during 2015 when I was so much happier and at peace and not miserable like I am now. I always try to reread the same books, watch the same tv shows and do the same things just to get back that feeling of peace. And I fail everytime. This is stressing me out along with other issues I have. I"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 18:
+[PATIENT]: "I feel like I can't get ahead in life and I feel like people only are staying in my life because they're afraid what I'd do. I feel like i'm the person everyone just feels bad for. I feel like no one genuinely cares about me"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 19:
+[PATIENT]: "This year has been complete hell for me I turned 22 I lost my girlfriend of 4 years she broke up with me by handing me the custom necklace I got her.. I fell thousands of dollars in debt from helping her with everything she needed from phones to car payments. I met my best friend fell completely in love with her thought she felt the same way so I asked her out she turned me down. everything was fine (I just loved her company) until 2 weeks ago she started dating and I never really see her anymore and is now about to move away.... I'm stuck living with my parents who tell me how everything I do is wrong how I should have a 50k+ income how I should have moved out 2 years ago becomes it's easy to afford to live. I can't afford to move out alone I truly thought she loved me and we were simply going to get a apartment we even talked about it a lot to the point we looked at some.. I'm ending 2016 thousands in debt alone and depressed knowing there will never be anyone there for me when I need them my few friends I consider family and I would do anything for them (from buying tires to food to giving them a ride) and I like to think that they would be there for me... but this year has shown me that's not the case that non of them truly care about me... I've been sleeping all day after work crying slowly realizing I have no one even as I write this I'm realizing that."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 20:
+[PATIENT]: "I am making this post mostly because for the 1st time ever somebody has called the police on me reporting that I was suicidal. I often times hit a point to where I am broke every month and I talk about wishing I could just leave earth painlessly and times where I just randomly break down because I am sick of having almost no human interaction and at the age of 30 I haven't even had so much as a girlfriend. So I am constantly questioning my worth and life based on that alone. But the cops came by my house just a couple of minutes ago and asked if I felt suicidal, and I told them no, because honestly right now I feel "fine". Fine in the sense that I feel I can function normally and at least for the rest of the day and probably just stay in my room and read or play random computer games. So I ask, am I even considered suicidal? While I do constantly think about what would be the repercussions of killing myself(My family kind of depends on me financially atm) I have never actually made the attempt to kill myself(Honestly just too scared I think). I'm really just curious on if I am considered suicidal or if I just need to find out how to not be a piece of shit at life."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 21:
+[PATIENT]: "My life is meaningless. I feel completely numb, like I'm going about my day in a daze. I have no reason to live and no desire to live anymore. There are so many problems in my life I can't even begin to list them all. The only reason I haven't is because I don't want to hurt my family. I've reached a point where I REALLY don't want to continue and I feel ready to leave it all behind. I know it's selfish to transfer my problems and I really don't want to do that to the few people I care about but isn't it selfish to ask me to continue living when I'm in so much pain? I'm sure they'll be ok eventually. I think I'm ready to do it"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 22:
+[PATIENT]: "hey everyone. I have been struggling with pretty severe depression since I was very young. I don't really remember a time where I felt normal. Anyway, I feel like tons of bad shit happens to me. Maybe there is something wrong with me.. im not too sure. Probably at this point. I recently went through an abusive relationship and it caused me to be even more fucked up than ever. Now I am just struggling and hurting inside. I recently found someone who I think is a good person and im not sure. I just dont think that I can ever have a functional relationship because of how bad my depression is. Also, I think that people get bored of me and see me as worthless sometimes. It really just hurts because I really feel worthless. Sorry this is all just complaining. I am just so hurt right now and I feel hopeless. Like I am not going to go anywhere in life. Like I will never find someone who will love me, or even worse that I'll never love myself."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 23:
+[PATIENT]: "Yesterdays brawl is enough for me. Just another reason to do it, and to be honest main reason of all the bad things happening, it's better to be abandoned, rather than have a "family" like that, if you can even call 1 parent that hates you, and blames for everything, a "family". I must admit, it felt good to say what I said, and do what I did. It feels so good to know it's soon to be over, I fear death, and pain, but the peace that comes afterwards is what I have been waiting all my life, honest smile. It's moments like that, that we are waiting for, a spark that lights the shit up, and helps it explode. Desireless - Voyage Voyage, I love this song. Time to prepare! I wasn't expecting to be that long here, but the time has come, I remember every single time I did something. I will only miss my cat, but cats are traitorous by nature, unlike a dog I never had. PL, CK, PJP - 13.12.1987"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 24:
+[PATIENT]: "I really just want any glimmer of hope to cling to that my life won't end empty and alone as it has been so far in my years. There's really no chance of my romantic situation ever changing though... So I'm back to sitting alone with no hope, just me and my shitty brain I don't even want. I don't know why my depression is so bad today, not sure if it's the new year and the prospect of going around again with the same old bullshit of being rejected or the amount of happy couples I saw today. That always gets me... Seeing people happy, just wishing you could feel things like love, affection, closeness with someone...but knowing that's the one part of life you are permanently gated from. All I want to do is die but I can't so I guess lifetime of misery it is.."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 25:
+[PATIENT]: "Ive been going through so much at this point, and I want to let it out all out so please bear with me since I'm just depressed at this point. You might relate to this. I love too much and it's hurting me because they don't love me or care for me back. It's not romantic wise. It's just one of those genuine friendship types. They distance themselves away from me because they know that's what's best for our relationship It's all my fault I ruined our friendship. I put too much care into them. I bought them a lot of things to show how much I care. But I messed up. I messed up big time. I was living in denial the whole time. I found out they only still care about me because they're a good person. Not because I'm something. I was such an idiot. I was the asshole beachside I kept expecting something in return from them. And I can't stop caring about them. I want to isolate myself from them for good, because they don't deserve someone like me at all. All I did was hurt. I easily get jealous when they give care and attention to someone else. My god, I'm just really sad and heartbroken at this point. Just a depressed teen here, crying hot tears in bed, and listening to chill hop. I am nothing but a horrible piece of shit. To make things worse, one of my closest friends in high school are in the hospital, unable to speak at all because they were shot on Christmas. My dad fell super ill as well... Life really does give you a box of chocolates, doesn't it?"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 26:
+[PATIENT]: "My sadness has been dragging me for weeks and today, I'm too lazy to do the things I normally do. Even the things that I want to do. I wasn't able to go to school today because it was really hard to get out of my bed. I'm not even in the mood to play games. Every minor thing that bums me out affects me drastically. I haven't tried going to the hospital regarding my mental health and I am not sure if this is all just in my head or I really have depression."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 27:
+[PATIENT]: "I've had about three interviews and a couple phone interviews and nothing yet. I know it's the holidays and no one is hiring en masse yet. But, God, sitting around the house sucks. I miss just buying things without having to do quick mental math to see if I could afford it. I intend on joining the plumbers union, but God help me if I don't get in."
+Response:
+{
+  "qol_domains": ["Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 28:
+[PATIENT]: "Last year I thought I finally got over my depression and anxiety, but then my girlfriend cheated on me, broke up with me, and told me I wasn‚Äôt good enough for her. It all came back into my life, I did countless drugs which only made my depression worse, I had a comedown that lasted one week and I never spent more time thinking about suicide on a genuine level than ever. I‚Äôve stopped the drugs, they were bad for me, but they‚Äôve affected me long term now even more than I already had been affected by my depression and anxiety."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 29:
+[PATIENT]: "I'm a 26 year old male. I'm always, ALWAYS worried about something. It could be big, or it could be small, but no matter what im always worried. When I say worried, I'm not talking about your everyday anxiety. I'm talking about constant panic attacks. Im 26, and I've had people guess I'm 40. The only time I have relief is in my sleep. Everytime things seem to be looking up, something always manages to go wrong. My anxiety has turned into rage over the years, and I'm getting closer, and closer to snapping everyday. I clean brathrooms for a living, and someone could so much as ask me if they could use the bathroom as I'm trying to clean it, and I want to rip their heads off there fucking shoulders. I'm almost afraid I might hurt someone soon, as I feel I have nothing to live for anymore. I've felt how I do for the past 10 years, and it's not getting any better. I'm a vile person. I've been told by countless people, that I'm a vile person. If you knew what I've done, youd think I was a vile person. Theres no turning back from the things I've done, that's why i have nothing to lose, and i feel it's time to inflict my pain upon others. The thought of disappointing my parents, and them seeing me for the monster I am comforts me. I really dont see me living this life much longer."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 30:
+[PATIENT]: "I living in a third world country where people better working their ass off to feed their mouth than thinking for their own feelings. I was born in a urban family and have got a lot of traumas and hatreds duo to unfortunate childhood but I was strived to have a decent education and have tough myself a lot about psychology. Recently I've aware of my depression being more serious cause I started develop and think about suicidal thoughts more often. I told my parents that have trouble in my brain and it affected my study but nobody cares and said I was crazy wtf?? So I decided to tell my aunt who is a physician that I got trouble in my brain but she disappointed me by saying you should stop overthinking and prepare for your future??? Am so messed up right now fuck fuck fuck."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 31:
+[PATIENT]: "I wish I could kill myself without hurting anybody."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 32:
+[PATIENT]: "Due to medical treatment I have been throwing up for what feels like most of the night. I feel so shit! Why do I have to go through this?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'."
+}
+
+Example 33:
+[PATIENT]: "I got way too attached and when she ghosted me I wanted to hate her, but I couldn‚Äôt. So I hated myself. At one point the only thing holding me back was the thought of living if I failed. Fast forward a year out of no where she attempts suicide. It made me realize how much I still cared about her. I don‚Äôt feel like I deserve to be as broken down as I am though. I cared so much about her and she probably didn‚Äôt even think of me for a moment. I was just another stupid dude to her. Everything about it is fueling my self hatred."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 34:
+[PATIENT]: "I was just curious as to what medication/mg are you on? Has it helped you? what other meds have you tried? I'm currently on Effexor XR 300mg, and it has helped me so much!!! but if I don't take my medication at the same time everyday I feel so sick, horrible brain zaps to where I cant even move my head/eyes."
+Response:
+{
+  "qol_domains": ["Physical Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'."
+}
+
+Example 35:
+[PATIENT]: "I didn't go to work today because I had a breakdown last night, and when it was time to get up for work I felt dizzy and glued to my bed. I feel like this is the beginning of my downward spiral. I can't let it win, but I feel like I'm losing."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 36:
+[PATIENT]: "Hello! This is my first post on Reddit. English is not my native tongue so bare with me. My mom and dad molested me from 0-18 years old. My dad got me pregnant at the age of 11. We went abroad and I had an abortion. When I was younger (before I hit puberty) they sold me to other men and allowed them to use me as they pleased for a night, sometimes a whole weekend. At 18 I got a good job and moved far away from them. Now I'm 23 and my life is very good. I married the man of my dreams and together we have a 1 year old kid. I know I should be happy but I always feel depressed and anxious. I have flashbacks everyday and nightmares every night. I'm starting a ptsd program with a therapist tomorrow and to be honest I don't want to go - I'm really scared. I don't know what will happen when I start talking about everything that happened when I was a kid. I feel like my childhood was just too messed up and I will never get over it. I'm so tired of the flashbacks and the nightmares. I have too many bad memories. I don't want to live like this, I can't live like this. Do you think I can get over this and be normal?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 37:
+[PATIENT]: "Title says it all. I have degrees but I have no confidence, I suffer from social anxiety and I have little work experience. I lost all my friends years ago. No romantic interest because I don't leave the house except for a morning run. I feel totally lost. I have no idea what I am doing. My parents are worried. I have let them down. They keep asking me what my plans are and I have no answer. I don't want to see any family on my birthday. I am embarassed. There is something fundamentally wrong with me. Is it depression? Maybe I am in a trance. I just keep repeating the same things day after day with no idea how to change."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 38:
+[PATIENT]: "So, here is my deal. Im successful. I am in great shape. I have a good life. However, i have 0 self worth. 0 Self esteem. The worst. It's been this way for years. **Backstory** Severely abused as kid. Then when i got out, I would over react to situations like a psycho. Extreme over the top protective responses to minor things. I never hurt anyone, hit anyone, but was a hot emotional mess with how i handled things. Learned to manage that with years of therapy. Additionally, I would often find myself in relationships with women, who were horribly abusive and did some pretty shit things, further hurting my self esteem that i would allow my self to be treated like that. So, i guess i feel since that I have allowed people to treat me as if i had 0 self worth for so long, that i feel like new great people wont possibly feel different. Additionally, I have alot of anxiety that alot of people may think I am crazy/emotionally unstable if tot hear of some of my situations in the past and i have stopped interacting with new people simply out of this fear. i guess my difficulty, is that if i was overweight, I would feel like atleast i could put a plan into place where i could logically lose the weight and help me feel better. however, i have maxed out everything that i can improve that way(body, finances). I have to change the way my mind works and honestly, it seems impossible. any thoughts/help/advice?"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 39:
+[PATIENT]: "Hey everyone. I‚Äôm 22 years old and ever since I was 9 my father has been sexually abusing me. He also verbally berates me and physically biass me. I‚Äôve never been able to get evidence of his crimes documented. My mother is so brainwashed she no longer protects me. I finally called the police because I was so sick of the bias and now I‚Äôm afraid that I may have fucked up. I have no money and due to my autism and physical disability‚Äôs I can‚Äôt work. I feel stuck and for the first time in years I legitimately want to end my life. I see no way out. I was foolish to believe anyone would help me. I don‚Äôt know what to do."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 40:
+[PATIENT]: "But everything i Do, every social interaction feels pointless or really hard. Even with my family. I'm at work right now and my co workers are having fun and laughing and i can't even find the will power to join in. I want to be happy but i can't"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 41:
+[PATIENT]: "I come from and live in a country where things are too hard and over half the population is unemployed and suffering mentally. The only people surviving are doing something illegal like pulling the most scams, kidnapping or prostitution. I wish I can indulge in any of this, I have tried to do everything legally even with a degree i seem not to find a job. It is too hard for me to live on, I can‚Äôt afford basic meal or rent and this hardship has set even my family apart. I am thinking of taking my life as the problem persist. See you guys on the other side if ever succeed."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 42:
+[PATIENT]: "It is often in combination with being sick. But I can just wake up in the morning and be unable to move my legs, and have great difficulty moving my arms as well. I have had it confirmed by doctors and psychologists alike that it is not physical. Something psychological is keeping me unable to get out of bed. It has been suggested to me by my psychiatrist that it is repressed emotions. But most of what I am feeling is just stress, frustration and anxiety due to being unable to go to work. I feel like I will be let go because I have to constantly call in sick. (Not actually let go, just not getting my contract renewed) Does anyone else suffer with this? Has anyone overcome it?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 43:
+[PATIENT]: "I was called and told over the phone by my employer that ‚Äúwe have to to cut ties‚Äù because of some comments, assuming bad jokes out of recall, I wasn‚Äôt aware they upset my co-workers. My first reaction led me to punch my fist into a wall in a public area and now my mind is swirling with thoughts of candid anger. This was my first firing and I‚Äôm not processing it well. My first thought is why bother apply for other jobs when I have the reason on my conscience? Second, if I do try again, then I better embrace the bias hateful questioning about my termination. Third if I tell anyone, then I will lose everyone close to me. Fourth, if I tell my parents, I will be a shame and burden to have committed such an act. Finally, looking back, I‚Äôm tempted to end my life rather than deal with future repercussions about my termination. If you‚Äôve been fired for first time, how did you process it?"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 44:
+[PATIENT]: "I've been feeling terrible and didn't want to talk, but I've been ignoring her calls for almost the whole month, so I had to let her know I'm alive. I'm not suicidal, I just can't handle the stress of her always asking about my plans. I lied through my teeth that I'm completely fine and my application for graduate school is all finished. The truth is, I dropped the application after not being able to finish the personal statement/essay. I have no idea what I'm doing or what I'll be doing, or how I can stay in the US if I don't continue my studies (I'm on a student visa). I just don't want to go home. I feel even more terrible now."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 45:
+[PATIENT]: "I often think about ways I could maybe kill myself. Like stabbing a kitchen knife into my heart or stepping in front of a bus. I don‚Äôt know if that would work or if I‚Äôd ever actually do it but the thoughts are there. Sometimes I feel like I want to die. Like I don‚Äôt care if I died or not at that moment. But sometimes I don‚Äôt want to at all. Does that make sense/is that normal? I was raped a few years ago but have never spoken to someone professional about it. My husband knows but he doesn‚Äôt speak about it and tells me I should talk to someone if I want to. I don‚Äôt know if he just isn‚Äôt the kind of talking person or if he doesn‚Äôt actually care - it was a mutual friend of ours and he knows that. When I watch tv programmes or see news articles of people getting raped I get really angry, I think this might be when I start thinking about ways I could die. If I was dead I‚Äôd never have to be reminded or think about rape again. Some days my thoughts overwhelm me and I don‚Äôt want to get out of bed. I want to get up and have a nice day but something just seems to stop me. I don‚Äôt know what and I just feel really shit and down. Am I just being stupid? Or is this something that is normal? Should I get professional help?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 46:
+[PATIENT]: "I pretty much spent the whole of last year quite depressed. I knew something was up with me so recently I started taking anti depressants (non SSRI) and only now im actually starting to feel something, do I realise just how long I was numb for. It was hard to describe to my girlfriend that I wasnt upset or unhappy I was just unable to feel anything at all... I would have loved to have been able to be unhappy about something. To feel the intense emotions of unhappiness (like from a break up or something) would've been such a welcome change from the void I was in. I've definitely got a long way to go but the anti depressants I've been taking (mitarzapine) has shown me the first glimmer of hope I've had in a while."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 47:
+[PATIENT]: "I honestly feel worthless for the millionth time. I always fuck up everything and never amount to anything special. I just feel like a fucking toy to everyone. My relationships are shit and so am I."
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 48:
+[PATIENT]: "New year‚Äôs coming around and IÔ∏è really just want to say thank you to all of you. IÔ∏è still have a long way to go, but reading posts on here and getting feedback from real people has helped much more than anyone can think. I‚Äôve been to multiple therapists but none of them have been as helpful as this. We‚Äôre all so broken but have so much care within us. It makes me so happy to see us all try to put each other back together even at our lowest of times. Once again, IÔ∏è really do thank you guys, a bunch of strangers caring when you don‚Äôt have to; and IÔ∏è hope 2018 is a better year than 2017 for all of us."
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 49:
+[PATIENT]: "So I started therapy a couple weeks ago, and I just dont feel like it works at all. My mother drives me 30-45 minutes away, for me to sit in a couch in front of a professional, while I only say one-word sentences. My therapist suggested journaling. She said she would read them if I let her, so maybe I say it on paper and give it to her tomorrow, and hopefully I can get this mess sorted out."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 50:
+[PATIENT]: "I feel a bit better with the drugs out of my system. I spent new year's morning on the beach till sunrise. As the sun approached, rays of orange and blue leapt between low level nimbostratus clouds painting a silky leopard-shaped canvas. Light etched it's way through the aesthetic sky-scape soon finding it's shortest path to the breakers below. I wondered if the love in my chest surfaced by this natural beauty was reciprocal in your heart somewhere.. though on second thoughts I guessed resentment might occupy most of our space there facilitated by my loathing and misery. Take it as obsession, ill-health, whatever, I can't walk around on a broken leg with a smile on my face. I went in boots and all, young and blind as they come.. Here's a thought: Perhaps staring at your weaknesses in crippling shame and regret is more likely to preserve the good in you than perpetuate failure over and over again, if you manage to recover in time.. That's a relieving thought I guess.. I remember when we fell in love.. I was so stupid. More words.. Just words... There's no one else.. Not that it matters.. Back to exciting sentences followed by exclamation marks and smiley faces.."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 51:
+[PATIENT]: "I have lost everything, i dont have any reason to live. Im in so much pain, its a constant unending agony. I dont want to live. I am only 16, i should have a full life ahead of me, instead i dont have anything. Id be better off giving up. Its all too much, i dont know why i havent killed myself already, i dont want to live, i just havent bothered to die yet."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 52:
+[PATIENT]: "God help me.... I know I should go to the hospital. I know I have to keep fighting....if only to prove to my children, cursed with these genetic tendencies of mine, that life is worth living. I made my son promise at Christmas to get help, and he did and he is thriving. My life long battle is starting to wear on this old soul of mine. It feels like the same pattern over and over, no matter how many variables I change. I am a very hard person to love. My scars and cynicism are just a little too hard for anyone who tries to stay around too long. Hubby has been in my atmosphere for 7 years...think it's finally getting through to him that I can not change the abuse I suffered, and the PTSD that resides in me and rears it's ugly head now and then. My mother never wanted me and beat her belly before I was ever born....almost 50 years later and I still feel as unlovable. I'm so tired. My kids will be so pissed if I give up....my bf needs me right now....I can't abandon them all....Heaven help me.....I just want it to stop hurting all the time."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 53:
+[PATIENT]: "I'm being partially hospitalized for paranoia. I'm glad I'm getting the help I need, but not feeling great that I'll have to miss work."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 54:
+[PATIENT]: "I feel tired. Nothing brings me a joy. I lost all my fucking hobbies. I started smoking a lot. I have alcoholic dad, he often lies, also he borrowing my money, but never give them me back. Luckily, my mom isn't such an alcoholic, but she also drinks a lot. I remember, when i was a child, my parents often dont have money to buy tge food, so i used to visit my grandma, and take some food from her, to feed me and my younger brothers. i remember, once my dad came back home, so drunk, that he beated my mother,and btoke a glass door. There were a fucktone of blood.It was sticky and smelled horrible. When i was 13 i was raped by my drunk dad. Nobody knows about it. Also 2 months ago,i found a gf, but she broke with the me up. Also she was amphetamine addicted. She was mentally unstable. She had a lot of overdose. Honestly I miss her. I feel like i don't have future. I was born because condom ripped, and anti pregnant tablets wasn't working. I feel useless. I live in a small town in Western Ukraine. My town is a fucking shithole of the Europe. In 1 year i will be graduating, but i don't know where I want to study."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 55:
+[PATIENT]: "I go back to school tomorrow, I absolutely hate my school but it‚Äôs my last semester before I graduate out of high school. My anxiety is really high right now and I‚Äôve had 1 panic attack, what should I do?"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 56:
+[PATIENT]: "Hi, My parents love me, unconditionally, they want the best for me, they have sacrificed a lot for me to come to where I am now, I got a high score in my final exams and I want to become a politician, but my parents won't let me because of the "sins" that will be committed, I am religious, the reason I want to become a politician is because my native culture is DYING in my country, the my culture is part of the majority ethnic group, our ethnic group's culture is being wiped off, the government stopped teaching my country's history so children become less patriotic, the police are corrupted, and many more atrocities are committed by the government. It is my dream, but if I ditch my parents I would want to kill myself, I would not be able to hold in the guilt. My dad also believes that if the elders of the party order you to do something and you don't do it, because it is not moral or just plain stupid,they will kick you off the party, can't I just create my own party? This post may be a little stupid, but I need some advice. Thank you so much! :) PS: Yeah, I know politicians are crooks, especially in my country, but I am becoming one also because of this reason, too many crooks in my country's government. :P"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 57:
+[PATIENT]: "I got in two car-totaling wrecks in the final two weeks of 2018. Firstly, I rear-ended someone hard enough to total my mother's car (it was still completely drivable but FUCK ME, right Geico? :); this happened the 19th. Then, I got a rental. And took my girlfriend of two years out to dinner on NYE, because that's our anniversary date. Silly me. Someone t-boned my rental car at 55-60 mph and completely destroyed both cars. Thank the fucking lord no one involved sustained any serious injuries, but me and my girlfriend are in pain and quite frankly, while I'm glad she's alive and ultimately okay, I wish I was dead. I'm on the hook for some serious fucking cash right now. I don't want to do this but I know I have to. For everyone else I've just been putting aside my fear and pain and anguish and self-doubt and I've been putting it into my work, finding extra hours and working for bonus etc. Hopefully I'll find a way out of this. Sorry for rambling. I don't want to tell this to anyone else. They just won't listen because both the accidents were my fault, so maybe I really am just a shit driver despite an otherwise squeaky-clean driving record of four years. I don't know what sign the lord, should he exist, is trying to send me. Maybe it's just to stay off of the road."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 58:
+[PATIENT]: "And judging by my user name, I'm sure you can guess what I'm talking about. I just set up this account, kind of a throwaway, sorta, but lord knows that since I have so much more time on my hands, might be using it more often. I was just fired from my job, literally half an hour ago. I'm beyond fucking useless. I was late for, what, the 8th time in the last month or so? Goddamn, how did I even manage to get away with it that long? It feels like wants to give me nice things, a job, a car, a nice girlfriend, and then subsequently take them away from me: Fights with my girlfriend, a fucking car accident, getting fired, and all of this only 6 months after my mom died right before my graduation ceremony from high school? I know I fucked up at my job, it was completely my fault, I can't fucking wake up on time, even when I have ~50 alarms set. I'm fucking useless, that's literally all it is. I'm fucking done. I just want to die. My username is basically the motto I use every fucking night when I'm drenched in tears, begging a god I don't believe in to just take the last thing I have left (my life) because I don't fucking want it anymore, it's shit, I obviously don't know how to do "life" anyway, so it might as well just fucking end. I really can't do this anymore. I really, really fucking can't. Everything hurts."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 59:
+[PATIENT]: "I usually lurk for awhile, but this feels safe enough. Truth is, I‚Äôve know for decades that I lost the Genetic Brain Chemistry Lottery. In other words, I‚Äôve been self-medicating nightly for 3 or 4 decades, a moderate to heavy drinker. Odd situations: I worked in a field that drug tested me every 3 months, performed a polygraph every year, and would pull you clearance if they found out you were on anti-psychotics because you were a security risk. But it was fine to keep a bottle in your desk. They finally experienced ‚ÄúEnlightenment‚Äù a couple of years back, but old habits die hard for us old hands. So, after six months of getting the brain chemistry stable (a lot of trial and error in that business). The snakes have been on me long enough. Time to take the depression and anxiety seriously. Also signed up for the stopdrinking reddit."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 60:
+[PATIENT]: "So for the last year I've been suicidal and knew I needed to get help but couldn't afford it. I had an idea to ask my parents to use their health insurance since in still on it to get me to see someone, but was terrified to tell my mom her little boy was so broken. Well tonight I did it and cannot believe how understanding she was. Turns out depression runs in the family and she's been secretly seeing someone for years! For all those struggling - it's okay to ask for help. You deserve to be happy and if that means opening up about your struggles to loved ones, all the power to you! I love you guys!"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 61:
+[PATIENT]: "I have not been myself for years and recently have opened up with myself that I am very depressed. I'm thinking about getting help maybe.. but I wouldn't even know what to book an appointment for or tell the doctor. I've been told you should never go in and say I am depressed because they're less likely.to believe you."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 62:
+[PATIENT]: "The only thing stopping me is my mom. I love her so much and I don‚Äôt want to disappoint her, especially since she literally watched her dad die from alcoholism, her siblings die without her even getting the chance to know them, my siblings weaving in and out of addiction, my own father being an alcoholic and not sobering up until after I left for college...I was the golden child of the family, the one that supposedly did everything right. I was raped multiple times and became an alcoholic, so I‚Äôm far from perfect and definitely don‚Äôt feel like I deserve to be alive. I can‚Äôt find a job. My marriage is falling apart. I feel so alone. But I feel like I deserve it; but my family doesn‚Äôt deserve this if I decide to go through with it."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 63:
+[PATIENT]: "Do any of you know a symbol that I can wear that means a broken soul. The broken heart is to basic, but I want a symbol that really represents me. I feel hopeless,broken, lonely, but I still fight."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 64:
+[PATIENT]: "My gf is upset because of her gpa, weight, job prospects, finances and is very depressed and she‚Äôs telling me I‚Äôm going to find her dead one day. I‚Äôve tried talking to her and it‚Äôs not helping and I don‚Äôt know what to do. I don‚Äôt think she has a plan but I‚Äôm not sure if she would tell me. I can‚Äôt live without her please I need advice"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 65:
+[PATIENT]: "I'm currently underemployed as a sub teacher, but hardly do that. I've let my mental health get out of control, as well as a string of bad luck that exacerbated my problems that was out of my control more or less. I feel really committed to turning my life around and not feeling mentally ill or bad or whatever, but I don't know when to say "Today was a good day, you did laundry, took a shower and shaved, took 1 sub job this week, and applied for one job today, exercised for three mins, meditated for 10" and When to say "that isn't enough, you can't survive this way. You need to set the goals higher, and you should/can set them higher" I guess, if that makes sense. How do we set goals, do you need to practice feeling good about those goals? As any goal achievement a good day? I guess it's OK to feel bad about low goal achievement(IE, I shaved today, today was a good day, that feels more insane to me than thinking about killing myself) and that you should practice feeling good goal achievement, no matter the amount or degree of goals achieved? Is it about effort? Can effort be enough? I know I'm rambling but I'm just trying to get some ideas flowing."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 66:
+[PATIENT]: "I lay in bed and occasionally get on my computer. I don't have the energy to get a job or go to school. I dropped out before my freshman year of community college because i just can't get out of bed. My life of going nowhere and I'm so ashamed when I see people I graduated with last year. I don't want another year."
+Response:
+{
+  "qol_domains": ["Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 67:
+[PATIENT]: "I know i dont know you but i do know what you are going through. I know every morning hurts. Everyday another struggle towards the goal of no longer existing. Everyday wanting it to be over finally. I hope you keep fighting though. I hope you keep trying to live And Not living only because you dont want your death to hurt people but truly living because you want to be alive. Im not there yet and I might never be but i am going to try to keep up hope that i do. Anyone going through as much as we are deserves love and even if there is no one else there that says it know that people care. Every suicide i hurts a little because i know it could be me. I hope i don't see your name this year."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 68:
+[PATIENT]: "I was diagnosed with major depression Nov 2015, since then I have found out that I'm allergic to ssris and few other medications. I remember how I was long before I was officially diagnosed with depression and how I was when before I realized the depression symptoms set in before that summer and I honestly think that I will never be that person anymore. Due to some schedule mishaps, I missed taking my meds on a reg day basis and I felt the same off of them as I do on them. I'm back on them to therapeutic level and nothing. I get moments of excitement but they fade away into the background. I can't think of one thing that I'm happy about. The only really thing I care about is my job. That's it. I do it very well. I've been under the care of a psychiatrist for a year now and in therapy for 2 years. Just putting that out there."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 69:
+[PATIENT]: "I hate to sound like *that guy*, but does anyone here receive any professional help? I went through this shit phase once, but I've got my shit all cleared up now. Yeah, I'm still alone or whatever, but I've learned to accept it while discovering a chemical imbalance in my brain from a trusted psychologist. I mean, with this generation it's like 50% are angsty teens, upset over simple things who glorify this shit then there's another 50% who seriously suffer. Who are mentally ill. It bothers me that this sub even exists, knowing there are so many people who need help, turning to an inappropriate source. I understand a support group, but I've yet to see anything empowering here. Just shit that'll make even the sanest, happiest person kill their fucking self. I suggest opening completely up to someone with a degree and credentials to aid you, not a bunch of kids on the internet. There could be something seriously screwed in your psyche and you may need medication or another form of treatment. There are also infections/diseases (and types of cancer, even) that can cause severe depression and addictions in people. Most don't find out 'til too late, when it spreads or whatever. Just a few words from my head... I wish you all a great 2018! My PM is always open!"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 70:
+[PATIENT]: "It will get better for you, the person with more than a handful of friends worried for you and asking if you'll be okay, the person who actually has a significant other who you can always turn to, the person who has a community that accepts them and doesn't discriminate against them for their entire identity. The person who only has depression and not a literal learning disability that impacts how you interact with others, and they treat you horribly because of it. The person who's pretty or at least average looking but at least they don't have a disfigured face people avoid as soon as they see you. If you're all of those. Or at least one. It'll always get better for you. And I am none of these! So I don't want to hear "life will get better" because it fails to take account to the people who have nothing and who's been like this for years. That's me!! This is how it'll be for the rest of my life, no matter how hard I try to make it better nothing sticks. It always goes back to the status quo. Misery! I'm so fucking done! I'm going to kill myself tonight, and there's literally nothing anyone can do that will stop me."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 71:
+[PATIENT]: "Im about to graduate and I feel 0 desire to go to college and find a career or anything. What's the point? To while my time away because everyone else is doing it? Lol. Thanks, but no thanks. I'd much rather just not exist. This shits boring and dumb af."
+Response:
+{
+  "qol_domains": ["Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 72:
+[PATIENT]: "I don't know what to say anymore. All the meaning in my life has felt like it left with her. The funeral is today. &amp;#x200B; Edit 1: Thank you for the encouragement. I don't expect to really ever get over it, to be honest. I feel like the best I can do is just mask it better with time."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 73:
+[PATIENT]: "My life is on repeat. I wake up and do the same things over again every single day. I don‚Äôt have any friends, I have no one. I feel so empty and alone. I guess it‚Äôs another on of these nights for me when I just sit and stare into nothing and think about how crap my life is. Seeing everyone happy having a great time meanwhile I am home. 18 years old about to graduate. Don‚Äôt even know if I want to go to college. I always think about ending it when it comes to that time."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 74:
+[PATIENT]: "I'm from a very fucked up country where finding any kind of meds (even antibiotics) is almost impossible. I really need my meds, this depression is getting very bad everyday, it's consuming me, I can't focus on simple things anymore and I need to study and work. I'm being abused everyday at home, it's impossible to afford a personal room and my only chance to get out of here is doing very well in college but it's so hard... I really need to succeed but I can't find any motherfucking medicine. What can I do? Whatever is a good advice, the abuse and thw pressure of succeed are killing me, if quit college things will be worse for me at home. I've heard self-cutting helps to cope the emotional pain, what's your experience with it? I don't care if ot leaves scars, I'll do anything to survive this hell. It's only one year of college, once I finish this year I'll finally be able to gtfo and find proper medicine and psychological help. It's only one year more. I need to survive no matter what I do. Edit: I made it shorter and easier to read."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 75:
+[PATIENT]: "I've lost the fight. I'm nothing at this point. A ball of emotions, barely fucking human. I've lost my motivation to go on. I'm not even pushing back against the destruction my brain wrecks. I'm not special, unique, important, smart, helpful, or human in any sense. I'm a selfish, lying bastard piece of shit. I'm insignificant, the background man. I'm not who I am. I'm a fake. A fake built up to conceal the blackness and horrible person I really am. I can't be happy ever again, everything I put on is just a mask to hide the nothingness. Nobody needs me. I don't have a life to take at this point. I'm numb, and I can't feel it anymore. I'm tired of waiting, fighting, disguising, and trying. I'm losing, and there's nothing I can do to win. There is no end. I doubt I find solace in anything."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Spiritual Perspective", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 76:
+[PATIENT]: "I'm mid 21 and balding and to add to it I'm 5'6. I've already accepted I won't have a love life but I can't come to terms what how I'll be treated by society, people I know. If not suicidal then I've thought that I wouldn't mind dying. Also I don't need anyone to talk about dying kids in Africa. To add to this I've got my exams which I should be ok for. The other thing is that after exams I'll probably go to a psychiatrist. Before I went to a counsellor which helped a bit but I'd hardly say they cured me."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 77:
+[PATIENT]: "I just want a car to hit me and to die or be in a coma. I feel like a piece of shit. I don't want to take my life, because I don't want to hurt my family by not telling them how I feel. I cry in the shower sometimes so no one would ever hear me. I don't know what the hell makes me being sad, I just can't really be happy right now. I wanna cry, I feel like a piece of shit, I can't do things, I feel sad, I wanna die. I want everything to stop. To fucking stop for 1 moment. I want to be alone for 1 day so I would do what the fuck I want. I don't want to see anybody, or to talk to anybody. I just want to be somewhere so no one could reach to talk to me. I want everything to stop. Everything is happening too fast. I feel like I don't have time for anything and I feel tired all the time. If I sleep for 5 hours, I am tired; 7 hours, I am tired; 10 hours, I am tired; 13 hours, I am tired. Everything I do I am fucking tired."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 78:
+[PATIENT]: "I've hit rock bottom again id never thought it happen twice but I'm digging my hope even deeper this time, I need help I just can't seek because idk where to look, every one is gone. No one wants to speak or listen to me and it sucks after a long day of work I come back and have so much to say but no one to speak too... Someone if you dont mind, I'd like to meet someone and talk, thank you for your time and I hope your doing wellüñ§"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 79:
+[PATIENT]: "This year was hell to me and every year before was too. This year I lost 4 pets including one last week and my group of friends turned on me and set out to ruin my life. Hopefully something happens to make this year better but I doubt it. I also hope Kim Jong Un‚Äôs fat ass and his family gets assassinated so he can‚Äôt kill us first"
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 80:
+[PATIENT]: "Just having the most basic lifestyle takes so much fucking work, just leaving the house to go to school is too much So many possibilities, so many diseases you can have, so many things a person can judge you for, so many things that you can do wrong Why can‚Äôt I just be normal?"
+Response:
+{
+  "qol_domains": ["Spiritual Perspective", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 81:
+[PATIENT]: "Found out i have the day off...all i want to do is smoke and watch porn when im home im so disgusted with myself and terrified of the future...i stay in decent shape i have great hygiene i work hard and good at my job (career)...but damn it how many times do i have to get rejected? If i could just get rid of that voice in my head telling me to fuckin end this shit without succumbing to substances...doesn't help the gun store is 5 min walk from home every time i see that damn sign that voice is there plotting it all out for me. I just want to crack my head open and pull it out...is this what i have to look forward to the rest of my life if i dont listen to it?"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 82:
+[PATIENT]: "Pretty much the title (for depression) but I booked it when I was drunk and really fucked up, now I'm not so sure because my anxiety is kicking in. Any tips to go through with it and not flake out?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 83:
+[PATIENT]: "I feel really awful about it. It's actually really eating me up inside... I feel like such a loser. Not so much that she ditched me, but that I'm alone, as usual. I'm mostly a loner except for this person so it feels like shit to just be alone when I know I shouldn't be."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 84:
+[PATIENT]: "Idk sometimes I feel like I'm sorting my issues out and getting better, I feel like I am in a better state of mind but then my SO tells me I'm not changing, I'm never going to change. I start to feel lost. I start to feel like I don't belong here"
+Response:
+{
+  "qol_domains": ["Spiritual Perspective"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 85:
+[PATIENT]: "Got that job, didn‚Äôt fuck up that date, realized how important grades were, wasn‚Äôt addicted to porn, didn‚Äôt drive everyone away. I don‚Äôt really know if this is the appropriate sub to post this. I knew I was a fuck up but I thought I would‚Äôve had it figured out by the new year"
+Response:
+{
+  "qol_domains": ["Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 86:
+[PATIENT]: "I‚Äôm one of you, and if no one else has said it to you, I hope you have a great 2018. Depression is a bitch, but hopefully this year brings you something good. Here‚Äôs to a (hopefully) happy 2018. If you are sad right now, that doesn‚Äôt mean there‚Äôs no hope at all for you this year. The start of the new year always depresses me because I feel like I should be doing something to celebrate and I‚Äôm not. But I‚Äôm trying to accept that as okay. Happy New Year, everyone."
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 87:
+[PATIENT]: "Fuck everything I‚Äôve worked so hard and prayed so much and it‚Äôs all still going so bad. I don‚Äôt know what to do anymore I can‚Äôt even wake up without crying I hate this"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 88:
+[PATIENT]: "I want to die. I‚Äôm tired of feeling this way inside and not being about to tell anyone. My friends have their own issues, depression, substance use, family issue. My situation in life it pretty good, I know this. Objectively, I can see it but this feeling that I carry inside is too much. This echoing nothing that carries on from day to day, the overwhelming sadness, the worthlessness... its all too much. I think about my family and then I feel guilt.. who would find me , who would clean up? Who would pack my shit away or sell it? The damage it would do to my mother only adds to the guilt. But there‚Äôs no way I can stay, living like this hurts. I‚Äôm head over heels for someone and every minute I spend with them is lovely. I makes things a little bit easier. But I can feel that my presence is too much sometimes, and the guilt come rushing in. I don‚Äôt know how long I can keep this up."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 89:
+[PATIENT]: "It‚Äôs been a good break so far, as school is the source of most of my triggers for depression and I‚Äôm also in Florida which helps combat seasonal depression, but something‚Äôs off. I just feel unsatisfied. Like, now that I‚Äôm feeling better, I‚Äôm seeing how bad I‚Äôve been living. I see what I want to improve now, but it‚Äôs overwhelming. I‚Äôm so close to having energy to take on these challenges, but right now I still hardly have energy to get out of bed. Any suggestions?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 90:
+[PATIENT]: "I was getting better... until I ruined everything. Now everyone hates me. I have nobody to turn to until my therapy appointment on Saturday...it‚Äôs too far away...how am I supposed to show my face in school tomorrow when even my best friends hate me now? I‚Äôm failing chemistry. My teachers a pervert. I want to die soon. I‚Äôm done."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 91:
+[PATIENT]: "I can't afford a college education. I can't afford to ever move. I can't afford to find a new job. I just wanna die. There's no point I'm not smart or anything, my health insurance went up like crazy this year, I spend 90% of my incoming trying to keep up with debt... I... I have no future and I want to die. I just can't function. I can't. There's no point. I'm gonna be at my shitty job until I die, I can't foster social connections there's no point to anything. I don't have friends, my parents don't give a crap about me they're narcissists who don't understand why I'm so sad. They think I should be doing really well because of how things are for them. I recently left my church because of how horrible the people were there.... (I'm transgender and I got spooked by some of the horrifying things they said--if they ever found out I don't wanna be hurt.) There's just no hope."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning", "Spiritual Perspective", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 92:
+[PATIENT]: "We had a 2 hour delay this morning in school and I came in with all my homework done but I still have to make it through swim practice and work. I kinda hope I drown during practice before the pain comes back tho."
+Response:
+{
+  "qol_domains": ["Intellectual State"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 93:
+[PATIENT]: "I think I have depression for over a year and recently I got a little better (I still have suicidal thoughts and still pessimistic often but I feel like I'm slightly better) but today I'm feeling something different. I usually feel a little of sadness mixed with numbness or numbness only but rn I can't explain what I'm feeling. I don't think there's something on my mind making me worried, I'm just feeling weird inside and I can't pinpoint what's the problem. Maybe my subconscious is stressed because of all the bad times and feelings I've been coping with all that time and I'm feeling the effects now? Or it's just a temporary feeling? Who knows? Have you ever experienced this? Forgot to mention but today I had a lot of emotional changes. I felt like this a few times earlier today (for no reason, again) and now it came back"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 94:
+[PATIENT]: "I don't enjoy the "nice" things other people seem to enjoy. Whenever I hear people treating themselves to nice things - a nice meal, a nice drink, a nice bubble bath, a nice warm bed, a nice movie, a nice fuzzy or otherwise comfortable garment, a nice place to be or visit - all I can think to myself is "How miserable it must be to enjoy those things alone. I could do any one of those things right now, but it wouldn't make me feel better. It would make me feel worse for trying to 'take care of' myself like I'm some wounded baby that needs nursing." Especially reading a book. Dear God, I could never distract myself from the disconnect I feel inside of me to enjoy reading a book Why don't I get that little rush of dopamine from behavior others find rewarding?"
+Response:
+{
+  "qol_domains": ["Spiritual Perspective"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 95:
+[PATIENT]: "I think I may do a good job filling up my schedule with the gym, library, chores, possibly school, and work. I still just know sitting at home during summer is going to suck balls. The winter is bearable as it's cold and most people are inside. Although knowing people are out having fun and you're inside is horrible. I can't take anymore of these lonely summers."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 96:
+[PATIENT]: "we are literally born for no reason, no one asked to be here and we‚Äôre all going to eventually die anyways. yet we have to study, work and make a living for the bare minimum. literally everything is meaningless. how the fuck did everything even start? why is life so unusual and complex. i feel like an alien."
+Response:
+{
+  "qol_domains": ["Spiritual Perspective"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 97:
+[PATIENT]: "And I really want to help him somehow but I just don't know how. I don't understand how he feels to be honest, since we are just so different I guess, but I try. What should I do? We don't live in the same city, so I'm taking a day off from college and going home this weekend. Is it a good idea to take origami paper to fold origami or play chess or something similar? He doesn't know any of those, so I thought maybe a new activity might help. What do you think?"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 98:
+[PATIENT]: "Hi guys, long time reader first time poster here. A year ago I moved into an apartment in a brand new city. I remember being so excited for all the things I'd be able to do. I'd get a job, get to a gym membership, and even join a few social groups. Well, after a year, nothings really changed. I applied for a lot of jobs and ended up going to a decent number of interviews. Nothing ever came of them and after June passed me by I lost my nerve to even really look anymore. I did end up getting a gym membership but I've never really used it though. I know I shouldn't procrastinate like this but I'm never able to find the energy. I haven't been able to find any groups or friends while I've been here either. I've looked but the only groups I've been able to find have been smaller groups that cater to people a lot older than I am. It's been getting harder and harder to find motivation to get out of bed or go outside for a long time now. As I don't have a car, I'd have to take the bus to go anywhere which would eat up most of my day. I haven't really been able to derive any sense or pleasure from much anything these days. I'm just letting the time pass. Next week, I'm starting university and I'd like to enjoy this time of my life. But I know that it'll probably end the same as all the years I spent at community college did, with nothing of significance happening and not making any friends."
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 99:
+[PATIENT]: "New office job. Staring at spreadsheets all day, which I was fine with since it was in my comfort zone. Now they've assigned me something I only have a semblance of an idea about, but are acting like I'll be able to do an insane job. I said my knowledge of it was basic, BASIC BASIC. But they still want to see what I can "do." I won't be able to do fucking anything. I'll be sitting infront of my computer wanting to kill myself, because I won't even figure out whatever they want me to do without Google every five seconds. I don't want to go in tomorrow, I want to quit working entirely. This is fucking painful."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 100:
+[PATIENT]: "Go out, too out of your mind with sleep deprivation to be coherent, sit around at home feeling like shit in all respects, have both of your parents dismiss that anything's wrong while pouring gas on the fire by being passive aggressive every time they interact with you, and when it seems like things might change, whether it's your own efforts or the environment just shifting, it all circles back to being the same again. The ride never ends."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 101:
+[PATIENT]: "When I read the left side of my head has this pushing sensation, and tension also does it when I think I've been experiencing this for a couple weeks now it's getting worse, and right now I just want the work day to start is it normal if you want to go to work , I mean I hate the place I work for but all I want to do is go..."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 102:
+[PATIENT]: "I can do errands and generally go to work. I can make myself go to therapy for now. I'm exhausted the whole time, and it's hard to concentrate, but I can do it. I will admit I've called into work 7 or 8 times this year though. I usually only call in once or twice a year. Whoops. So I can generally do what I need to do. I can't cook or maintain my personal hygiene though. I've just been microwaving leftovers that someone else made or eating fast food. I haven't showered in 4 weeks. I only brush my teeth once a day, and even then it's half-assed. I haven't brushed my hair in a few days. I lay around when I'm not running errands/working/going to therapy and it makes my body sore as hell. I've been getting about 4 hours of sleep on average a night. I haven't hung out with anybody in about a month and a half. I text friends, but can't talk about anything other than...ugh. How I feel. It's pathetic. Am I really depressed if I can "function"? I mean, really. I can do the big things I need to do. Just not the small things."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 103:
+[PATIENT]: "I can either stay at home and drink wit my parents friends which will be shit or I can ride my bike about 4 hours to get to the city where my friends live. Part of that ride includes going over a fucking mountain. Plus, just took a ritalin pill so I'll be fucked after the ride."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 104:
+[PATIENT]: "It's the same shit every. damn. time. Nothing's gonna change. I'll stay miserable as always. It's always been like this my entire life. There was no hope, I was just delusional. I'm just waiting for the day I can finally kill myself with nothing to stop me."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 105:
+[PATIENT]: "Hi all. Hope you are doing well. Just want to start off by saying thank you for hanging in there and sticking through tough times. I hope on everything good in this world there will be compassionate people to be with you throughout your journey. And I hope that one day you might be that compassionate person for someone else. I know you are. I come to you today for advice. (Thanks in advance for reading this) Does the mind rule the body or does the body rule the mind ?.. .I'm in a really strange place right now. I know I have depression (at least I believe I do with my family history). But I usually find myself getting depressed about things I see in the world. For example just seeing how much sex is exploited. Just seeing the thumbnails of YouTube videos of women showing off their breasts and how these videos have millions of views. It just bums me out. Seeing hate and violence on tv. It really just gets to me. I start getting really upset when I see how shallow/ easily tempted/ lead people are. Is this normal? Is it the world doing this to me, or is it my mind? I've basically lost everything these past few weeks..my belief in a god, my friends, my hopes. I now have only one real person I can talk to. I want out. And I've had enough, where is there for a person like me in the world to live ? Please anyone, comment your thoughts on this. What gets you depressed ? Is it common what I feel?"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Spiritual Perspective"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Spiritual' label from training data is 1, corresponding to 'Spiritual Perspective'."
+}
+
+Example 106:
+[PATIENT]: "I bought a bottle of wine on my way home from work lastnight. Drinking alone is never good for me but I felt like I really needed to drink. Anyway 2 glasses in I‚Äôm trying to find somebody to hang out with, texting all my friends that are nearby and everyone was busy. I felt so lonely, painfully lonely, and I started hating on myself. I‚Äôve learned to really love myself the past few years but lastnight my dark side emerged and I wanted to hurt myself. I took a knife to my leg and just started cutting, something I haven‚Äôt done since high school. When I was finished I just looked at it and knew it was a mistake, now I‚Äôm going to have to hide it till it heals. No sex, no beach/pool trips, no shorts (the weather is always warm where I live so even though it‚Äôs winter these things are still an option for me) ... I‚Äôve limited myself by a few moments of weakness but I‚Äôm trying to forgive myself. I just had to get it off my chest. There was only one person I could talk to about it and while he did a lot for me I feel like I needed to say something about it here as well."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 107:
+[PATIENT]: "I wanted to kill myself a couple days ago. My family was supposed to leave the house for a few hours, which would give me time to do it. They didn't leave and I'm so angry. It's not fair on them. They couldn't know. But I'm still so angry. I'm not supposed to be alive right now and yet, here I am. And it's all because they decided not to go. If I had chosen not to, been moments away and stopped because I'm a coward, that would have been fine. But no. I don't even get to blame myself for it. I just wanted it to be over but now I have to keep going for longer. I hate myself for hating them over this."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'."
+}
+
+Example 108:
+[PATIENT]: "Preface, I'm a bit drunk rn, it helps numb this pain. A girl I knew and I had hooked up with in the past, then became friends with commit suicide recently. We weren't close but I'd consider her a special friend to me. We rarely saw each other, but when we did we had the best banter known to man. I'm doing great in school, have a girlfriend, got internships lined up and was happy before this. But now, since she commit suicide, the only thing that makes sense to me is to kill myself. I've had depressive episodes before but this feels different. Everytime my thoughts are blank or I zone out, my first thought is the fact she is actually gone. Last time I tried to commit suicide was 5 years ago, and even then it wasn't this impactful. &amp;#x200B; For some reason this girl's suicide has really fucked with me and makes me feel like suicide is a reasonable option. It makes me feel like I have a new purpose. I feel like there is something extraordinary waiting for me. I almost feel as if she is waiting for me. &amp;#x200B; I got home in a cab and cried the entire way. The cab driver said nothing. I said nothing. When he looked at me I felt he had accepted my fate as I had. Perhaps there is more, perhaps there isn't. But I do want to cry more, but I'm not close enough to the girl to deserve pity. &amp;#x200B; As I am typing this out I feel better. I feel as if I do not need to die right now but I do crave death. Just not at my hand. I accept being murdered, I accept an accident. &amp;#x200B; I just wish it was over."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 109:
+[PATIENT]: "I‚Äôm proud of my accomplishments but I always second guess everything. What if I did this differently? Why didn‚Äôt I do this better? It‚Äôs gotten to the point where I compare myself to my colleagues and friends and their successes and motivations. I want to be motivated into achieving more but thoughts of inadequacy has kept me in a state of stagnation. How do I convince myself to be ok with where I‚Äôm at in life and gain the motivation to move forward? I feel so ashamed to have these feelings yet so jealous of the happiness and enjoyment my friends have in the things we do. Because of this I feel isolated and alone in my feelings and unsure of my future. I love my friends and family but I‚Äôve never seen them as the type of people to have serious conversations about my distress with and I don‚Äôt want their perception of me to change if I tell them. I‚Äôve had people in my life call me broken and recently I‚Äôve started to feel that way. How do I become enjoy life again? I meditate and exercise a little but it all comes back when it‚Äôs over."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 110:
+[PATIENT]: "A big issue I have with my depression is my inability to keep my house clean. I have lived in clean homes my entire life. I know how to clean and keep things clean. When I am a guest at a hotel or a friend's house I clean up and keep my space tidy. My house is a completely different matter. I have learned that it is because of my depression that my house is like this. I live alone and so it is up to me, alone, to keep my house clean. For the new year I want to make the resolution to clean my house and make it organized and keep it that way. I recently started taking Zoloft and I've noticed that I'm able to keep things picked up. For example I take my used dish and put it in the sink (I have a pile of dishes to do so we're just going to focus on the fact that I took the dish down in the first place instead of keeping it in my room). I get overwhelmed when I have to clean a lot. Partly because my grandparents were so completely anal about cleaning that it's almost my little rebellion. However, I know that I can do 15 minutes a day. I have done it, I just haven't been able to keep the habit up. I want to make that habit and keep it going. Does anyone have any site recommendations for support or reward tracking?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 111:
+[PATIENT]: "at first I was mad, wondering how could he think that his life was worthless enough to choose to kill himself. I mean, I'm depressed too. I know what it means. But he actually did it. He killed himself. He's dead. I have him between my friends on steam and I see the "last logged in" day always getting more far. First two days, then a week, two weeks, four weeks. He's never going to log in again, because he's dead. I wonder if he did the right thing. Life is fucking hard. I should get a job. I should go back to school. I should get a license. I don't want to. There is this sense of doom I feel everywhere I go, everything I do. Things seems so worthless. I'm sorry this is all over the place it's almost 5am and I can't fall asleep"
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 112:
+[PATIENT]: "For context, I‚Äôm 19, in my first year of college, and for one month - since I failed one of my exams - I lost everything I thought I had. All my friends, my crush, and for a week now, my Dad, who just wants to be upset at me forever for not helping him to the end with carrying some construction material. For one month, I‚Äôve entered a downward spiral, amplified by events such as the rejection mentioned earlier, or not being able to give the license exam two days ago because of some stupid policemen who told me that I ‚Äúdidn‚Äôt pay the license tax‚Äù correctly. And not being able to make up with my Dad, who just hates me. The final straw came an hour ago, when I got laughed at when I entered the classroom. Just because I happened to enter at the same time as some other older students who didn‚Äôt belong there. When I left the college, no one noticed. It is probably a matter of weeks or even days before I take my life. Nothing is worth it. Nothing makes me happy. Nothing can save me now. Nothing. And what‚Äôs more, no one (apart from probably my mother and sister) won‚Äôt miss me. But let‚Äôs be serious, they‚Äôll live without me. And also, I‚Äôm sure no one will notice this post, in the heap of posts of people with more serious life issues. This is really what makes me a failure: not being able to live happily in a life which would seem ok to most people here. So yeah."
+Response:
+{
+  "qol_domains": ["Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 113:
+[PATIENT]: "Started college 10 yrs ago. Was going to graduate soon but haven't been able to keep up w/ school since Jan. Depression, anxiety + giving up, self sabotage, isolating from friends/family. Can't seem to do anything. Feeling helpless, no motivation, angry, no confidence. Therapy and meds not helping. Have let everyone down including myself. What should I do?"
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Emotional Well-Being", "Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 114:
+[PATIENT]: "I'm 18 I want to commit suicide but I'm not brave enough I don't want to tell my parents or friends but they said I've been acting weird plus I haven't gone to class in a month and my parents know it yet my dad decides to say that I'm like this because of videogames, yesterday I smashed my phone into pieces because he called me just to blame me for that. I'm so lost I want to cry and share my shit with someone close but that person just don't exist"
+Response:
+{
+  "qol_domains": ["Social Functioning", "Intellectual State"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 115:
+[PATIENT]: "Title. Just felt like punching shit while I was in the car on the way back, just wanted to lose control but I didn't. Felt like cutting, going back to the drugs I just got free from, felt like just going back to my old self, just wanna shut myself away. Why does this shit affect me so much. Guess it's just cause it should be easy yet I can't not fail at least once first. Same happened with my permit, I failed the first time and felt worse then than I do now. Guess it's the embarrassment, my family didn't think I would pass anyway, they said they did but I could tell. My friend told me it'd be fine cause it's **easy** so I'd do fine, so where does that leave me. Just makes me feel stupid. I can't retake it for like 3 fucking months either cause I'm going back to school soon. Hopefully this doesnt come up when I'm there, less I talk to people less chance it will happen right, that's just how it is with everything tho. It's fucking embarrassing cause everyone else has already been driving for like 4 years and I just started last year, lucky them, I didn't live here until last year. This just sounds more and more stupid the more I talk about it, which it is. But it's embarrassing and just fucking annoying, can't handle embarrassment and it doesnt seem to matter how old I get, I never will. Not like anyone really expected me to do any better, they'll always just see me as a kid."
+Response:
+{
+  "qol_domains": ["Physical Well-Being", "Social Functioning"],
+  "confidence": [0.98, 0.98],
+  "reasoning": "Based on training data: the 'Physical' label from training data is 1, corresponding to 'Physical Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 116:
+[PATIENT]: "I'm 23 years old I don't know what to even do with my life, I just work long hours (11 to 12) for 400 a week and when I do get time off I want to stream even tho I don't have a set up at all but I get taken over by low motivation. And I don't leave my room. I don't go out to do much."
+Response:
+{
+  "qol_domains": ["Intellectual State"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
+
+Example 117:
+[PATIENT]: "Im going to kill myself soon it will be easy i think im going to do it in the bathtub so it wont have a lot of blood staining i feel bad for the person or people that are going to have to carry my fat fucking body down the stairs I cant stop thinking about this i just feel bad when I think of my parents finding me"
+Response:
+{
+  "qol_domains": ["Social Functioning"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Social' label from training data is 1, corresponding to 'Social Functioning'."
+}
+
+Example 118:
+[PATIENT]: "Winter semester begins tomorrow and I'm in denial. Back to group work, trying to make acquaintances, perform my best. I really just don't care, and thinking of going physically pains me."
+Response:
+{
+  "qol_domains": ["Emotional Well-Being", "Social Functioning", "Intellectual State", "Vocational"],
+  "confidence": [0.98, 0.98, 0.98, 0.98],
+  "reasoning": "Based on training data: the 'Emotional' label from training data is 1, corresponding to 'Emotional Well-Being'; the 'Social' label from training data is 1, corresponding to 'Social Functioning'; the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'; the 'Vocational' label from training data is 1, corresponding to 'Vocational'."
+}
+
+Example 119:
+[PATIENT]: "I seem to have a big inferiority complex Today in class we were doing little clay figures that represented something to us, while everyone else's looked beautiful and detailed, mine was all desfigured and ugly, while everyone's had a meaning behind them, mine was "hurr duuurr i like octopus" Why cant i be the best in something for once?? I felt so embarrassdd when it was my turn to talk about my model, all i wanted to do was say "sorry teacher but im a talentless piece of shit" Im petty, im pathetic, i dont want to be but i cant help but feel this way"
+Response:
+{
+  "qol_domains": ["Intellectual State"],
+  "confidence": [0.98],
+  "reasoning": "Based on training data: the 'Intellectual' label from training data is 1, corresponding to 'Intellectual State'."
+}
